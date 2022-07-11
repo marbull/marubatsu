@@ -65,3 +65,13 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+//todo アプリのタイトルを変更
+//todo フィールドのUIを作成
+//todo フィールドのUI作成をメソッドを用いて簡潔に
+//todo ターンの表示とクリアボタンの作成
+//todo マス目をタップ可能にし、タップ時にターン切替
+//todo マス目タップでマルバツを表示
+//todo ゲームの勝敗のパターンを書き出す
+//todo ゲームの勝敗を判定可能に
+//todo リセットボタンタップでリスタート可能に
