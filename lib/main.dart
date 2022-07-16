@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,8 +42,14 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
-      ),
+          title: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const [
+          Icon(FontAwesomeIcons.circle),
+          Icon(Icons.clear),
+          Text('ゲーム')
+        ],
+      )),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -66,7 +73,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-//todo アプリのタイトルを変更
 //todo フィールドのUIを作成
 //todo フィールドのUI作成をメソッドを用いて簡潔に
 //todo ターンの表示とクリアボタンの作成
